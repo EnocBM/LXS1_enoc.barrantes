@@ -1,0 +1,365 @@
+    1  su - academia
+    2  echo var3
+    3  echo $var3
+    4  ls -
+    5  ls -la
+    6  ?
+    7  ar ¡
+    8  ls -la
+    9  cd documentos
+   10  cfdisk
+   11  uname -s
+   12  uname -a
+   13  un
+   14  un 
+   15  un ?
+   16  man un
+   17  man uname
+   18  pwd
+   19  cd
+   20  cd /dev0
+   21  cd /dev
+   22  cd
+   23  cd /dev0 ls- l
+   24  cd /dev ls- l
+   25  cd
+   26  cat /dev/input/mouse0 
+   27  sudo cat /dev/input/mouse0 
+   28  echo ?
+   29  echo 
+   30  man echo
+   31  var=1
+   32  echo $var
+   33  vars=2
+   34  echo $var2
+   35  export var3=123
+   36  echo $var3
+   37  terminator
+   38  export var3=123
+   39  echo $var3
+   40  $ unset var3
+   41  pwd
+   42  cd
+   43  pwd
+   44  cd /dev0
+   45  history 
+   46  cat .bash_history
+   47  cat .bash_rc
+   48  cat .bashrc
+   49  ls -la
+   50  man ls
+   51  man
+   52  man 
+   53  man ?
+   54  man less
+   55  man /
+   56  man ls
+   57  man -k pass
+   58  man -f pass
+   59  man -f password
+   60  h
+   61  info
+   62  man apropos 
+   63  set
+   64  vimtutor
+   65  cat 
+   66  cat .profile
+   67  man access
+   68  dmesg 
+   69  dmesg | less
+   70  cat /var/log/syslog | less
+   71  umask
+   72  ls ~ > /tmp/home.txt
+   73  ls ~ 1> /tmp/home.txt 
+   74  ls ~ > /tmp/home.txt
+   75  cat ~ /tmp/home.txt 
+   76  ls ~
+   77  find /etc/ -name passwd 2> /tmp/errot.txt
+   78  find /etc/ -name passwd
+   79  cat /tmp/errot.txt
+   80  vim lista-de-archivos.txt
+   81  cat lista-de-archivos.txt
+   82  top
+   83  ps
+   84  ps aux
+   85  ps -e
+   86  sleep 1000 &
+   87  jobs
+   88  kill -l
+   89  top
+   90  echo d*
+   91  echo D*
+   92  echo D*n*
+   93  echo D*N*
+   94  echo D*n*
+   95  su -
+   96  su - academia
+   97  ls
+   98  touch perro
+   99  mkdir otro
+  100  ls otro
+  101  history
+  102  echo "Permiso de acceso a sudo" | mail -s "Solicitud de Permiso" user1
+  103  mail
+  104  mail user1
+  105  sudo apt-get install ftp
+  106  su - academia
+  107  ftp 10.124.18.220
+  108  su - academia
+  109  man fdisk
+  110  echo $VAR1
+  111  exit
+  112  $VAR2
+  113  echo $VAR2
+  114  exit
+  115  echo hola
+  116  touch /temp/test1
+  117  touch /tmp/test1
+  118  pwd
+  119  ls /
+  120  alias my_year="cal 2017"
+  121  my_year
+  122  dpkg --get-selections | grep linux
+  123  which ls
+  124  ls -l `which ls`
+  125  man dpkg
+  126  ls /home
+  127  wich ifcongig
+  128  wich ifconfig
+  129  ls -l
+  130  ls -lh
+  131  ls -s $(wich ls)
+  132  ls -l $(wich ls)
+  133  ls -l $(which ls)
+  134  history
+  135  pwd
+  136  clear
+  137  history
+  138  man ls
+  139  clear
+  140  uname
+  141  uname -a
+  142  uname -n
+  143  uname -n -o
+  144  pwd
+  145  catchsegv 
+  146  clear
+  147  VAR1=caso
+  148  echo $VAR1
+  149  $var1
+  150  VAR1=OTRO
+  151  ECHO $VAR1
+  152  echo $VAR1
+  153  echo Este es $VAR1 caso
+  154  echo $var1
+  155  echo 'Este es $VAR1 caso'
+  156  echo 'Este es' $VAR1 'caso'
+  157  ip -4 addr
+  158  export VAR1
+  159  bash
+  160  VAR2=5
+  161  bash
+  162  export VAR2
+  163  echo $ VAR1
+  164  echo $VAR2
+  165  echo $VAR1 $VAR2 
+  166  EXIT
+  167  exit
+  168  history
+  169  set | less
+  170  env | less
+  171  env | grep VAR
+  172  env | grep VAR1
+  173  exit
+  174  ls $HOME
+  175  pwd
+  176  cd /etc/apt
+  177  echo $HOME
+  178  ls $home/prueba1
+  179  ls $HOME/prueba1
+  180  cd
+  181  env | less
+  182  echo $PATH
+  183  VAR=`ls *.txt`
+  184  history
+  185  VAR1=`ls *.txt`
+  186  ls *.txt
+  187  exit
+  188  date
+  189  bash
+  190  VAR=OTRO
+  191  echo $VAR
+  192  env  grep VAR
+  193  env | grep VAR
+  194  env | less
+  195  bash
+  196  ls *.txt
+  197  ls
+  198  ls prueba1
+  199  VAR1=`ls prueba1`
+  200  ECHO $VAR1
+  201  echo $VAR1
+  202  nano progl.sh
+  203  mv progl.sh /tmp/
+  204  ca /tmp/
+  205  cd /tmp/
+  206  ls
+  207  chmod 750 progl.sh 
+  208  ls
+  209  ls -l
+  210  ./progl.sh 
+  211  echo $PATH
+  212  cd
+  213  ls
+  214  mkdir bin
+  215  ls
+  216  cp /temp/progl.sh
+  217  cp /temp/progl.sh bin/
+  218  cp /tmp/progl.sh bin/
+  219  ls bin/
+  220  progl.sh 
+  221  ls
+  222  PATH=/opt/bin:$PATH
+  223  echo $PATH
+  224  history
+  225  clear
+  226  nano .bash.rc
+  227  nano .bashrc
+  228  cowsay
+  229  nano .bashrc
+  230  cp .bash_history Documents/history-clase.txt
+  231  cp .bash_history Documents/history-clase1.txt
+  232  history
+  233  cp .bash_history Documents/history-clase1.txt
+  234  cd /tmp/
+  235  dd if=/dev/zero  of=/tmp/data.out bs=1 count=12
+  236  ls -l
+  237  split -b 2 data.out 
+  238  ls -l
+  239  cat xa* > data2.out
+  240  ls -l
+  241  split -n 4 data.out salidas.
+  242  ls -l
+  243  cd
+  244  cat /etc/passw
+  245  cat /etc/password
+  246  cat /etc/pass
+  247  cat /etc/passwd
+  248  cut -d":" -f1,4 /etc/passwd
+  249  man ln
+  250  su - academia
+  251  date
+  252  ls
+  253  tree
+  254  cd tmp
+  255  cd /tmp/test/
+  256  ls
+  257  tree
+  258  rm -r folder2
+  259  tree
+  260  cd ..
+  261  cd .
+  262  cd ..
+  263  date
+  264  ls
+  265  find . -name Descarga
+  266  find . -name Descargas
+  267  find /home/ -name Descargas
+  268  find /home -name Descargas
+  269  find . /home -name Descargas
+  270  find . -name Des*
+  271  find . -name 'Des*
+  272  find . -name 'Des*'
+  273  mkdir descuentos
+  274  find . -name 'Des*'
+  275  ls
+  276  find . -name 'Des*'
+  277  mkdir Descuentos
+  278  rm Descuentos
+  279  rm -r Descuentos
+  280  find . -name 'Des*'
+  281  rm -r descuentos
+  282  mkdir Descuentos
+  283  find . -name 'Des*'
+  284  find . -name 'De*' -a name 'Doc*'
+  285  find . -name 'De*' -o name 'Doc*'
+  286  find . -name 'De*' -o -name 'Doc*'
+  287  find . -iname 'De*' -o -name 'Doc*'
+  288  find . -iname 'De*' -o -name 'Doc*' -mtime -3
+  289  find . -iname 'De*' -o -name 'Doc*' -size -1m
+  290  whereis grep
+  291  whereis -m grep
+  292  which grep
+  293  which -b grep | cut -d '' -f2
+  294  whereis -b grep | cut -d '' -f2
+  295  whereis -b grep | cut -d ' ' -f2
+  296  whereis -bm ls tr
+  297  whereis -bm ls tr -m gcc
+  298  whereis passwd
+  299  whereis -b passwd
+  300  wich passwd
+  301  which passwd
+  302  whereis bash
+  303  which ping
+  304  which -a ping
+  305  ls
+  306  ls bin/
+  307  cd bin/
+  308  ls
+  309  cd ..
+  310  cd
+  311  date
+  312  type ls
+  313  type -a ls
+  314  nano .bashrc
+  315  clear
+  316  cd test/
+  317  cd /tmp/test/
+  318  ls
+  319  cd ..
+  320  cd
+  321  mkdir test
+  322  ls
+  323  cd test
+  324  vim file1
+  325  ls
+  326  cat file1
+  327  cat file2
+  328  history
+  329  less hist
+  330  cd /tmp/
+  331  ls
+  332  cd/test
+  333  cd /test
+  334  history | tail -10
+  335  history | tail 
+  336  history | tail -20
+  337  history | tail -8000
+  338  cd ..
+  339  cd
+  340  cdclear
+  341  clear
+  342  history | tail -8000
+  343  clear
+  344  /tmp/test/
+  345  cd /tmp/test/
+  346  cd /usr/bin/
+  347  ls
+  348  ls -l
+  349  ls -l w*
+  350  ls -l w??
+  351  ls -l w???
+  352  ls -l w??[ba]*
+  353  ls -l w??[b-a]*
+  354  ls -l w??[a-b]*
+  355  ls -l w??[a-d]*
+  356  date
+  357  echo w???
+  358  echo [!a-v]* nl
+  359  echo [!a-v]* | nl
+  360  echo [!a-v]* 
+  361  echo [!aA-vV]* 
+  362  cd test
+  363  cd misc
+  364  ls
+  365  history > history_clase2.txt
