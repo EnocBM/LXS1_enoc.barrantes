@@ -1,0 +1,19 @@
+eno1      Link encap:Ethernet  direcciónHW 64:51:06:3e:f1:14  
+          Direc. inet:10.124.18.165  Difus.:10.124.18.255  Másc:255.255.255.0
+          Dirección inet6: fe80::bd6b:b091:cc9c:8022/64 Alcance:Enlace
+          ACTIVO DIFUSIÓN FUNCIONANDO MULTICAST  MTU:1500  Métrica:1
+          Paquetes RX:282784 errores:0 perdidos:823 overruns:0 frame:0
+          Paquetes TX:97387 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1000 
+          Bytes RX:91420552 (91.4 MB)  TX bytes:25102084 (25.1 MB)
+          Interrupción:20 Memoria:f7c00000-f7c20000 
+
+lo        Link encap:Bucle local  
+          Direc. inet:127.0.0.1  Másc:255.0.0.0
+          Dirección inet6: ::1/128 Alcance:Anfitrión
+          ACTIVO BUCLE FUNCIONANDO  MTU:65536  Métrica:1
+          Paquetes RX:3559 errores:0 perdidos:0 overruns:0 frame:0
+          Paquetes TX:3559 errores:0 perdidos:0 overruns:0 carrier:0
+          colisiones:0 long.colaTX:1 
+          Bytes RX:366346 (366.3 KB)  TX bytes:366346 (366.3 KB)
+
