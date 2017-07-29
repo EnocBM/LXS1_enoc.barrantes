@@ -1,0 +1,747 @@
+    1  su - academia
+    2  exit
+    3  echo $VAR1
+    4  export $VAR1
+    5  exit
+    6  pwd
+    7  la /
+    8  ls /
+    9  ls 
+   10  alias my_year="cal 2017"
+   11  my_year
+   12  sudo su
+   13  cal 1992
+   14  clear
+   15  my_year
+   16  alias 1 "ssh"
+   17  c lear
+   18  clear
+   19  alias 1="ssh"
+   20  1
+   21  ifconfig
+   22  alias 1="ping -c 4"
+   23  1 127.0.0.1
+   24  spkg --get-selections | grep linux
+   25  clear
+   26  dpkg --get-selections | grep linux
+   27  which ls 
+   28  ls -l `which ls`
+   29  man dpkg
+   30  man grep
+   31  which ssh
+   32  ls /home
+   33  which snmpd
+   34  ls -l
+   35  ls -la
+   36  ls -lh
+   37  ls -lha
+   38  ls -l | which ls
+   39  ls -l `which ls`
+   40  pwd
+   41  uname -a
+   42  uname 
+   43  uname -a
+   44  uname -n
+   45  hostname
+   46  uname -n -o
+   47  which history
+   48  which `history`
+   49  clear
+   50  VAR1=caso
+   51  echo $VAR1
+   52  VAR1=otro
+   53  echo $VAR1
+   54  echo Este es $VAR1 caso
+   55  echo 'Este es $VAR1 caso'
+   56  ip -4 addr
+   57  ifconfig
+   58  VAR1=5
+   59  VAR2=otro
+   60  mi_var=caso
+   61  echo $VAR1 esta es una salida $VAR2 en el $mi_var
+   62  bash
+   63  exit
+   64  echo hola
+   65  history
+   66  echo $VAR1
+   67  exit
+   68  echo $VAR1
+   69  exit
+   70  VAR1=5
+   71  VAR2=otro
+   72  mi_var=caso
+   73  echo $VAR1 esta es una salida $VAR2 en el $mi_var
+   74  bash
+   75  export VAR1
+   76  bash
+   77  set 1 less
+   78  set | less
+   79  env | less
+   80  env | grep VAR
+   81  env | grep -i  VAR
+   82  set | grep -i VAR
+   83  set | grep VAR
+   84  env | less
+   85  mkdir $HOME/prueba1
+   86  ls
+   87  cd /etc/apt
+   88  mkdir $HOME/prueba1/prueba2
+   89  ls $HOME/prueba1
+   90  cd
+   91  echo $PATH
+   92  ls *.txt
+   93  PROJECT=$(pwd)
+   94  echo $PROJECT
+   95  cd
+   96  nano prog1.sh
+   97  mv prog1.sh /tmp/
+   98  cd /tmp
+   99  ls
+  100  chmod 750 prog1.sh 
+  101  ls
+  102  ls -l
+  103  ./prog1.sh 
+  104  nano prog1.sh 
+  105  ./prog1.sh 
+  106  echo $PATH
+  107  cd
+  108  ls
+  109  mkdir bin
+  110  ls
+  111  cp /tmp/prog1.sh bin
+  112  ls bin
+  113  prog1.sh 
+  114  mv bin/prog1.sh bin/pro1
+  115  ls
+  116  cd bin
+  117  ls
+  118  pro1
+  119  mv bin/prog1.sh bin/prog1
+  120  cd ..
+  121  mv bin/prog1.sh bin/prog1
+  122  PATH=/opt/bin:$PATH
+  123  echo $PATH
+  124  pro1
+  125  mv bin/pro1 bin/prog1
+  126  prog1
+  127  cd /
+  128  prog1
+  129  history
+  130  nano .bashrc
+  131  nano bash.rc
+  132  nano .bashrc
+  133  cd
+  134  nano .bashrc
+  135  last
+  136  who
+  137  vim bashrc
+  138  cat /etc/password
+  139  cat /etc/passwd
+  140  cut -d ":" -f1,4 /etc/passwd 
+  141  cd /temp
+  142  cd /tm/p
+  143  cd /tmp/
+  144  dd if=/dev/zero of=tmp/data.out bs=1 count=12 
+  145  dd if=/dev/zero of=/tmp/data.out bs=1 count=12 
+  146  split -b 2 data.out
+  147  ls
+  148  ls -l
+  149  cat xa* > data2.out
+  150  ls -l
+  151  split -n 4 data.out salidas.
+  152  ls -l
+  153  ifconfig |nl
+  154  cp .bash_history Documentos/history-clase1.txt
+  155  cd
+  156  cd /
+  157  nano .bashrc
+  158  cd
+  159  nano .bashrc
+  160  clear
+  161  id
+  162  man ls 
+  163  su - academia 
+  164  su -academia 
+  165  su - academia 
+  166  man fdisk 
+  167  su - academia
+  168  cd /tmp
+  169  mkdir test
+  170  cd /test
+  171  ls
+  172  mkdir folder{1,2}
+  173  sudo mkdir folder{1,2}
+  174  exit
+  175  cd tmp
+  176  cd /tmp
+  177  ls
+  178  cd test/
+  179  ls
+  180  mkdir folder{1,2}
+  181  mkdir folder1
+  182  ls -la
+  183  cd 
+  184  su - academia
+  185  cd /tmp
+  186  mkdir test
+  187  cd test/
+  188  mkdir folder{1,2}
+  189  mkdir -p folder/proyecto/acueducto
+  190  tree
+  191  apt -get tree
+  192  sudo apt-get install tree
+  193  tree
+  194  su - academia
+  195  tree
+  196  mkdir -p folder1/proyecto/acueducto
+  197  tree
+  198  rm -r folder
+  199  tree
+  200  cp -r folder1/proyecto/acueducto/ folder2/
+  201  tree
+  202  cp -r folder1/proyecto/ folder2/
+  203  tree
+  204  cd folder2
+  205  rm -r /acueducto
+  206  ls
+  207  rm acueducto
+  208  rm -r  acueducto
+  209  cd .
+  210  cd ..
+  211  tree
+  212  man du
+  213  man du 
+  214  cd folder1
+  215  ls
+  216  cd proyecto
+  217  ls
+  218  cd acueducto/
+  219  mkdir /empleasdos/otros
+  220  mkdir /empleados
+  221  mkdir empleado/otros
+  222  mkdir empleados
+  223  ls
+  224  cd empleados/
+  225  mkdir otros/
+  226  cd tmp
+  227  cd /tmp
+  228  ls
+  229  cd /test
+  230  cd tes/t
+  231  cd test/
+  232  tree
+  233  cp -r acueducto/ folder2
+  234  cp -r /acueducto folder2
+  235  cp -r folder1 folder2
+  236  tree
+  237  cd folder2
+  238  rm -r proyecto
+  239  cd ..
+  240  tree
+  241  cd folder 2
+  242  cd folder2
+  243  rm folder1
+  244  rmdir folder1
+  245  rmdir -r  /folder1
+  246  cd ..
+  247  tree
+  248  rmdir folder2
+  249  tree
+  250  touch folder1/proyecto/acueducto/empleados/file -{casa,perro,gato}
+  251  touch folder1/proyecto/acueducto/empleados/file-{casa,perro,gato}
+  252  tree
+  253  touch folder1/proyecto/acueducto/file-{1,2,3}
+  254  tree
+  255  rmdir folder2
+  256  rmdir -a folder2
+  257  man rmdir
+  258  man -k remove
+  259  rmd folder2
+  260  rm folder2
+  261  rm /folder2
+  262  clear
+  263  tree
+  264  man ls
+  265  cd folder2
+  266  rm folder1
+  267  rm /folder1
+  268  rm folder1/
+  269  rmdir folder1
+  270  cd /otros
+  271  cd ..
+  272  rm folder2
+  273  rm /folder2
+  274  rm -r folder2
+  275  tree
+  276  history
+  277  tree
+  278  history | tail '-20
+  279  history | tail 3-20
+  280  history | tail '-20
+  281  history | tail -20
+  282  cd tmp/test
+  283  cd tmp
+  284  cd /tmp/test
+  285  clear
+  286  cd /user/bin
+  287  cd /user/bin/
+  288  cd /usr/bin
+  289  echo {2to3{,-{2.7,3.5}},411toppm,GET,HEAD,POST,V{Box{,Autostart,B{alloonCtrl,ugReport},DTrace,Headless,Manage,SDL,Tunctl,VRDP},irtualBox},X{,11,org},\[,a{11y-profile-manager-indicator,a-enabled,c{onnect,pi_listen,tivity-log-manager},dd{-apt-repository,part,r2line},lsa{bat,loop,mixer,tplg,ucm},m{i{di,xer},uFormat.sh},n{imate{,-im6},ytopnm},p{g{,bfm},lay{,midi},p{ort-{bug,c{li,ollect},unpack},res,streamcli},ropos,t{,-{add-repository,c{ache,drom,onfig},extracttemplates,ftparchive,get,key,mark,sortpkgs},dcon,url{,-gtk}}},r{,ch,ecord{,midi},m2hpdl,ping},s{,ciitopgm,eq{dump,net},pell{,-import},sistant},t{ktopbm,obm},vahi-{browse{,-domains},publish{,-{address,service}},resolve{,-{address,host-name}},set-host-name},wk},b{a{obab,s{e{32,64,name},hbug}},c{,cmd},dft{opcf,runcate},i{oradtopgm,tmap},lue{moon,tooth{-{sendto,wizard},ctl}},m{ptop{nm,pm},toa},ootctl,r{ltty-{ctb,t{rtxt,tb}},o{adwayd,wse},ushtopbm},sd-{from,write},t{attach,m{gmt,on}},usctl},c{++{,filt},2ph,89{,-gcc},99{,-gcc},_rehash,a{l{,endar,ibrate_ppa},n{berra-gtk-play,cel},ptoinfo,t{chsegv,man},utious-launcher},c,d-{create-profile,fix-profile,i{ccdump,t8}},h{a{cl,ge,r{det{3,ect3},map},ttr},con,e{ck-language-support,ese},fn,rt,sh},iptool,k{bcomp,sum},lear{,_console},m{p,uwmtopbm},o{depage,l{,crt,ormgr,rm,umn},m{binediff,m,p{are{,-im6},iz{,-decorator},os{e,ite{,-im6}}}},n{jure{,-im6},vert{,-im6}},relist},p{an{,5.22-x86_64-linux-gnu},p{,-5}},r{c32,e{atefontdatachunk,dentials-preferences},ontab},split,tstat,u{ps{-calibrate,test{dsc,ppd}},rl,t},vt},d{bus-{cleanup-sockets,daemon,launch,monitor,run-session,send,u{pdate-activation-environment,uidgen}},c{,onf},e{allocvt,b{-systemd-{helper,invoke},conf{,-{apt-progress,co{mmunicate,pydb},escape,s{et-selections,how}}}},htmldiff,ja-dup{,-preferences},lpart,s{igner,ktop-file-{edit,install,validate}},vdump},fu-tool,h_{bash-completion,installxmlcatalogs,py{py,thon{2,3}}},i{ff{,3,stat},g,r{colors,mngr{,-client},name,split},splay{,-im6}},m-tool,o-release-upgrade,pkg{,-{architecture,build{flags,package},checkbuilddeps,d{eb,i{staddfile,vert}},gen{c{hanges,ontrol},symbols},log-summary,m{aintscript-helper,ergechangelogs},name,parsechangelog,query,s{can{packages,sources},hlibdeps,ource,plit,tatoverride},trigger,vendor}},u{,mpkeys},vipdf,wp},e{dit{,diff,or,res},ject,lfedit,n{c{2xs,guess,hant{,-lsmod}},hancer,v{,subst}},og,ps2eps,qn,rb{,2.3},sc-m,vince{,-{previewer,thumbnailer}},x{,p{and,iry,lode,r}},yuvtoppm},f{a{ctor,illog,ke{d-{sysv,tcp},root{,-{sysv,tcp}}},llocate},c-{ca{che,t},list,match,pattern,query,scan,validate},i{ascotopnm,l{e{,-r{ename,oller},2brl},terdiff},nd,refox,tstopnm,x{-qdf,cvsdiff}},l{ipdiff,ock},mt,o{ld,nt{2c,tosfnt},o{2{h{bpl2{,-wrapper},iperc{,-wrapper},p{,2600-wrapper}},lava{,-wrapper},oak{,-wrapper},qpdl{,-wrapper},slx{,-wrapper},xqx{,-wrapper},zjs{,-{icc2ps,pstops,wrapper}}},matic-rip}},r{ee,om},stopgm,tp,unzip,wupd{ate,mgr}},g{++{,-5},3topbm,a{mma4scanimage,pplication,tttool},c{alccmd,c{,-{5,ar{,-5},nm{,-5},ranlib{,-5}}},o{nf{-merge-tree,tool{,-2}},re,v{,-{5,tool{,-5}}}},r-viewer},d{b{,-add-index,server,tui,us},ialog},e{dit,m{,2.3,top{bm,nm}},n{cat,isoimage},qn,t{conf,e{ltorito,nt},facl,keycodes,opt,text{,.sh,ize}}},hostscript,i{f{maker,topnm},nstall-info,o-querymodules,pddecode},kbd-keyboard-display,lib-compile-{resources,schemas},nome-{c{al{culator,endar},haracter-map},disk{-image-mounter,s},f{ile-share-properties,ont-viewer},help,keyring{,-{3,daemon}},language-selector,power-statistics,s{creens{aver{,-command},hot},ession{,-{inhibit,properties,quit}},oftware,ystem-{log{,-pkexec},monitor}},t{e{rminal{,.{real,wrapper}},xt-editor},humbnail-font},www-browser},o{ld,ogle-chrome{,-stable},uldtoppm},p{asswd,g{,-{agent,connect-agent,zip},2,conf,parsemail,split,v},ic,rof,u-manager},r{e{pdiff,source},o{ff,g,ps,tty,ups},ub-{editenv,f{ile,stest},glue-efi,kbdcomp,m{enulst2cfg,k{font,image,layout,netdir,passwd-pbkdf2,re{lpath,scue},standalone},ount},render-label,s{cript-check,yslinux2cfg}}},s{,bj,dj{,500},ettings{,-{data-convert,schema-convert}},l{j,p},nd,t{-{d{evice-monitor-1.0,iscoverer-1.0},ins{pect-1.0,tall},launch-1.0,play-1.0,typefind-1.0},reamer-codec-install}},t{bl,f,k-{builder-tool,launch,update-icon-cache{,-3.0},window-decorator}},ucharmap,vfs-{c{at,opy},info,l{ess,s},m{ime,kdir,o{nitor-{dir,file},unt,ve}},open,r{ename,m},s{ave,et-attribute},tr{ash,ee}}},h{2{ph,xs},ardening-check,bpldecode,ci{attach,tool},d,e{ad,lpztags,x{2hcd,dump}},ip{ercdecode,stopgm},ost{,id,namectl},p-{align,c{heck,lean,o{lorcal,nfig_usb_printer}},doctor,firmware,info,l{evels,ogcapture},makeuri,p{kservice,lugin{,-ubuntu},robe},query,s{can,etup},t{estpage,imedate}}},i{386,686-linux-gnu-pkg-config,bus{,-{daemon,setup,table-createdb}},c{eauth,o{,n{topbm,v}}},d{,entify{,-im6}},ecset,gt_stats,js_pxljr,lbmtoppm,m{-{config,launch},agetops,gtoppm,port{,-im6}},n{fo{,browser,cmp,tocap},it{-checkconf,ctl2dot},putattach,st{all{,-{info,printerdriver}},modsh},te{l{-{g{en4{asm,disasm},pu-overlay},virtual-output},_{au{bdump,dio_dump},b{acklight,ios_{dumper,reader}},d{isplay_{crc,poller},ump_decode},error_decode,f{irmware_decode,orcewaked,ramebuffer_dump},g{pu_{abrt,frequency,t{ime,op}},tt},infoframes,l{3_parity,id},opregion_decode,p{anel_fitter,erf_counters},re{g{,_checker},sidency},s{prite_on,tepping},watermark}},rdiff}},onice,p{c{mk,rm,s},od-{read-sysinfo-extended,time-sync},tables-xml},rb{,2.3},s{chroot,dv4-serial-{debugger,inputattach},o{dump,info,vfy},pell-wrapper}},j{oin,p{egtopnm,gicc},son_pp,wt3},k{b{dinfo,xutil},erneloops-submit,illall,modsign,oi8rxterm},l{2{ping,test},a{st{,b,log},vadecode},c{f,onvert},d{,.{bfd,gold},d},e{aftoppm,ss{,echo,file,key,pipe},xgrog},i{b{netcfg,reoffice,wacom-list-local-devices},n{e,guist,k{,icc},tian{,-{info,lab-tool}},ux{-{boot-prober,version},32,64}},s{pmtopgm,tres}},nstat,o{ad{keys,unimap},ca{l{c,e{,ctl,def}},te},draw,f{fice,romtemplate},g{ger,name},impress,math,ok,rder,w{eb,riter}},p{,_solve,options,q,r{,m},stat},release,s{attr,b_release,cpu,diff,hw,i{nitramfs,pc},lo{cks,gins},of,p{ci,gpot},usb},trace,u{it,pdate},wp-{d{ownload,ump},mirror,request},xterm,z{,c{at,mp},diff,egrep,fgrep,grep,less,m{a{,info},ore}}},m{a{cptopbm,ke{,-first-existing-target},n{,db,path},pscrn,ttrib,wk},badblocks,c{at,d,heck,lasserase,o{mp,okie,py}},d{5sum{,.textutils},atopbm,el{,tree},ir,u},esg,format,grtopbm,i{me{open,type},n{12xxw,fo}},k{_modmap,f{ifo,ont{dir,scale}},isofs,manifest,squashfs,zftree},l{abel,ocate},m{cli,d,o{unt,ve}},o{c,grify{,-im6},kutil,ntage{,-im6},usetweaks},partition,r{d,en},s{compress,expand,g{attrib,c{at,mp,o{mm,nv}},e{n,xec},f{ilter,mt},grep,init,merge,un{fmt,iq}},ho{rtname,wfat}},t{ools{,test},r{,ace},vtoppm,ype},xtar,zip},n{a{mei,utilus{,-{autorun-software,connect-server,sendto}},wk},cal,e{otoppm,qn,tkit-ftp,wgrp},gettext,ice,l,m{,-{applet,connection-editor,online},cli,tui{,-{connect,edit,hostname}}},o{hup,tify-send},proc,roff,s{enter,lookup,tat,update},tfsdecrypt,umfmt,vidia-detector},o{akdecode,b{exctl,j{copy,dump}},clock,d,n{_ac_power,board{,-settings},line-accounts-preferences},p{enssl,ldecode},rca{,-dm-wrapper},s-prober},p{11-kit,a{c{at,md,tl},dsp,ger,inter,lmtopnm,m{cut,d{einterlace,ice},file,o{il,n},st{ack,retch{,-gen}}},p{erconf,lay},r{ec{,ord},sechangelog,tx},s{swd,te,uspender},t{ch,hchk},x11publish},bm{clean,life,ma{ke,sk},p{age,scale},reduce,t{ext{,ps},o{10x,a{scii,tk},bbnbg,cmuwm,eps{i,on},g{3,em,o},icon,lj,m{acp,da,gr},nokia,p{gm,i3,lot,pa,sg3,tx},wbmp,x{10bm,bm},ybm,zinc}},upc},c{imodules,xtoppm},d{b{,2.7,3{,.5}},f{2{dsc,ps},detach,fonts,i{mages,nfo},separate,to{cairo,html,p{pm,s},text},unite}},e{ekfd,rl{,5.22{-x86_64-linux-gnu,.1},bug,doc,ivp,thanks}},f{2afm,btopfa,tp},g{,m{bentley,crater,e{dge,nhance},hist,kernel,no{ise,rm},oil,ramp,slice,t{exture,o{fs,lispm,p{bm,pm}}}},rep},i{1toppm,3topbm,c{,o{,nv}},l{convert,driver,f{ile,ont},print},n{entry{,-{gnome3,x11}},ky},xeltool},jtoppm,k{action,check,exec,g-config,ill,ttyagent},l{2pm,a{inbox-{qml-shell,trusted-launcher-1},yer},dd,og},m{-is-supported,ap},n{gtopnm,m{2ppa,a{lias,rith},c{at,o{lormap,mp,nvol},rop,ut},depth,enlarge,f{ile,lip},gamma,hist{eq,map},in{dex,terp{,-gen},vert},m{argin,ontage},n{lfilt,or{aw,m}},p{a{d,ste},snr},quant,r{emap,otate},s{cale{,fixed},hear,mooth,plit},t{ile,o{ddif,fi{asco,ts},jpeg,p{alm,lainpnm,ng,s},r{ast,le},s{gi,ir},tiff{,cmyk},xwd}}}},o{d{2{html,man,text,usage},checker,select},ff,n},p{d{c,html,i,merge,po},hs,m{3d,brighten,c{hange,ie,olor{mask,s}},di{m,st,ther},f{ade,lash,orge},hist,label,m{ake,ix},n{orm,tsc},pat,q{uant{,all},vga},r{ainbow,elief},s{h{adow,ift},pread},t{o{acad,bmp,eyuv,gif,i{cr,lbm},jpeg,l{eaf,j},m{ap,itsu,peg},neo,p{cx,gm,i{1,ct},j,uzz},rgb3,sixel,tga,uil,winicon,xpm,yuv{,split}},v}}},r{,e{c{at,onv},name,unzip,zip{,-bin}},int{,afm,e{nv,r{-profile,banner}},f},limit,ove,tstat},s{2{ascii,epsi,p{df{,1{2,3,4},wr},s{,2}},txt},f{addtable,gettable,striptable,xtable},i{cc,dtopgm},t{opnm,r{ee{,.x11},uct}}},t{ar{,diff,grep},x},ulseaudio,wdx,y{3{c{lean,ompile},versions},build,c{lean,ompile},doc{,2.7,3{,.5}},gettext{,2.7,3{,.5}},thon{,2{,.7},3{,.5{,m},m}},versions}},q{collectiongenerator,d{bus{,cpp2xml,viewer,xml2cpp},oc{,3}},glinfo,help{converter,generator},lalr,m{ake,l{,1plugindump,bundle,easing,importscanner,lint,min,p{lugindump,rofiler},scene,testrunner,viewer}},pd{f,ldecode},rttoppm,t{c{hooser,onfig},diag,paths},uirks-handler},r{a{ke,nlib,sttopnm,wtop{gm,pm}},c{c,p,test},d{esktop-vrdp,oc{,2.3}},e{a{delf,lpath},co{de-sr-latin,untdiff},diff,mmina,n{ame{,.ul},dercheck,ice},s{et,ize{,cons,part}},v},fcomm,g{b3toppm,rep},hythmbox{,-client},i{,2.3},l{etopnm,ogin},oute{f,l},pcgen,s{h,tart{,d},ync},tstat,u{by{,2.3},n{-{mailcap,with-aspell},con}},vi{ew,m}},s{a{ne-find-scanner,velog},b{attach,igtopgm,keysync,sig{list,n},v{arsign,erify}},c{animage,p{,-dbus-service},r{eendump,ipt{,replay}}},d{iff,ptool},e{ahorse,e,lect-{default-iwrap,editor},nsible-{browser,editor,pager},q,ss{ion-{installer,migration},reg},t{arch,facl,keycodes,l{eds,ogcons},metamode,pci,sid,term,xkbmap}},ftp,g{,itopnm},h{a{1sum,2{24sum,56sum},384sum,512sum,sum},o{twell,w{consolefont,key,rgb}},red,uf},i{gnon{-ui,d,pluginprocess},mple-scan,rtopnm,ze},kill,l{abtop,dtoppm,ogin,xdecode},mproxy,n{ap{,ctl},ice},o{elim,f{fice,tware-properties-gtk},rt,truss},p{ctoppm,d-{conf,say},e{aker-test,ech-dispatcher,llintian},l{ain,it{,diff,font}},rof,utoppm},sh{,-{a{dd,gent,rgv0},copy-id,key{gen,scan}}},t{4topgm,a{rt{-pulseaudio-x11,x},t},dbuf,r{ace,eam{,-im6},i{ngs,p}}},u{do{,edit,replay},m},y{mcryptrun,n{client,daemon},s{linux{,-legacy},tem{-config-printer{,-applet},d-{analyze,c{at,g{ls,top}},de{lta,tect-virt},path,r{esolve,un},stdio-bridge}}}}},t{1{as{cii,m},binary,disasm,mac,unmac},a{bs,c,il,skset},bl,clsh{,8.6},e{e,lnet{,.netkit},st},g{atoppm,z},h{inkjettopbm,resholder,underbird},i{c,f{ftopnm,icc},me{,datectl,out}},load,o{e,p,shset,tem{,-{audio-preview,video-thumbnailer}},uch},put,r{,a{ce{path{,6},route6{,.iputils}},ns{icc,mission-gtk,set}},ee,off,u{ncate,st}},s{et,ort},t{fread,y},zselect},u{buntu-{bug,core-launcher,drivers,s{oftware,upport-status},webapps-update-index},c{f{,q,r},s2any},disksctl,ic{,3},l,max_pp,n{attended-upgrade{,s},expand,i{code_stop,q,ty{,-{control-center,s{cope-loader,ettings-daemon},webapps-{desktop-file,qml-launcher,runner}}}},l{ink,zma},opkg,s{hare,quashfs},wrapdiff,xz,zip{,sfx}},p{date{-{alternatives,desktop-database,gconf-defaults,m{anager,ime-database{,.real}},notifier},db{,.mlocate}},ower,time},s{b{-{creator-gtk,devices},_printerid,hid-dump},ers},tmpdump,uidgen,xterm,z},v{box{-img,autostart,b{alloonctrl,ugreport},headless,manage,sdl,websrv},i{,ew{,er,res},m{,.{nox,tiny},diff,tutor},no-p{asswd,references},rtualbox},m{stat,warectrl},olname,stp},w{,.procps,a{ll,tch{,gnupg}},bmptopbm,c,eb{app-container{,-hook},browser-app},ftopfa,get,h{atis,ereis,ich,o{,ami,opsie{,-preferences}}},i{nicontoppm,sh{,8.6}},ord-list-compress,pa_passphrase,rite},x{-{session-manager,terminal-emulator,www-browser},11perf{,comp},86_64{,-{linux-gnu-{a{ddr2line,r,s},c{++filt,pp{,-5}},dwp,elfedit,g{++{,-5},c{c{,-{5,ar{,-5},nm{,-5},ranlib{,-5}}},ov{,-{5,tool{,-5}}}},prof},ld{,.{bfd,gold}},nm,obj{copy,dump},pkg-config,r{anlib,eadelf},s{ize,tri{ngs,p}}},pc-linux-gnu-pkg-config}},a{rgs,uth},b{iff,mtopbm,rlapi},c{alc,l{ipboard,ock},msdb,onsole,u{rsorgen,tsel}},d{g-{desktop-{icon,menu},email,icon-resource,mime,open,s{creensaver,ettings},user-dir{,s-{gtk-update,update}}},i{agnose{,-pkexec},tview},pyinfo,riinfo},e{di{d,t},v,yes},f{d,ontsel},g{amma,c,ettext},host,i{mtoppm,n{it,put}},k{b{bell,comp,evd,print,vleds,watch},eystone,ill},l{o{ad,go},s{atoms,clients,fonts}},m{a{g,n},essage,lpatterns{,validator},o{dmap,re}},p{ci,mtoppm,rop},qxdecode,r{andr{,-tool},db,efresh,otate},s{et{,mode,pointer,root,wacom},m,tdcmap,ubpp},term,v{i{dtune,nfo},minitoppm},w{d{,topnm},ininfo,ud},xd,z{,c{at,mp},diff,egrep,fgrep,grep,less,more}},y{bmtopbm,e{lp,s},uv{splittoppm,toppm}},z{dump,e{i{sstopnm,tgeist-da{emon,tahub}},nity},ip{,cloak,details,grep,info,note,split},jsdecode,lib-flate}} !
+  290  ls -l w*
+  291  ls -l w??
+  292  ls -l w???
+  293  ls -l w???*
+  294  ls -l w???[ba]*
+  295  ls -l w??[ba]*
+  296  ls -l w??[a-d]*
+  297  echo w?
+  298  echo w??
+  299  echo w???
+  300  echo [!A-Va-v]
+  301  echo [!A-Va-v]*
+  302  cd ..
+  303  cd
+  304  clear
+  305  su -academia
+  306  su - academia
+  307  find --help
+  308  ls
+  309  find . -name Descargas
+  310  find / -name -i snmpd
+  311  find / -name snmpd
+  312  locate snmpd
+  313  ls / snmpd 
+  314  find / -name snmpd
+  315  find / -name *snmpd
+  316  find . -name /snmpd
+  317  find . -name Des*
+  318  find / -name Des*
+  319  ls / -name vim*
+  320  find / -name vim*
+  321  find / -iname amaz*
+  322  find /bin/ -iname amaz*
+  323  find /bin -iname amaz*
+  324  locate /bin -iname amaz*
+  325  find /bin -iname 'amaz*'
+  326  which amazon
+  327  where is grep
+  328  su - academia
+  329  vim file1
+  330  ls
+  331  mkdir test
+  332  cd test
+  333  vim file1
+  334  su - academia
+  335  git config --global user.name "DavidArayaSanabria"
+  336  git config --global user.mail "davidjosuearayasanabria@gmail.com"
+  337  gitconfig
+  338  git config --global user.name "DavidArayaSanabria"
+  339  git config --global user.mail "davidjosuearayasanabria@gmail.com"
+  340  gitconfig
+  341  cat ~/.gitconfig
+  342  ls -a
+  343  cat ~/.gitconfig
+  344  ls
+  345  cd test
+  346  rm file*
+  347  ls
+  348  mkdir src
+  349  mkdir docs
+  350  mkdir misc
+  351  mkdir tools
+  352  touch README.rd
+  353  vim .gitignore
+  354  cat .gitignore
+  355  tree
+  356  mv README.rd README.md
+  357  tree
+  358  cat .gitignore
+  359  touch {docs,src}/.gitignore
+  360  touch {docs,src,misc,tools}/.gitignore
+  361  rm docs/.gitignore
+  362  rm src/.gitignore
+  363  tree -a
+  364  touch src/ .gitignore
+  365  tree -a
+  366  cd docs
+  367  ls
+  368  ls-a
+  369  ls -a
+  370  tree
+  371  cd ..
+  372  tree -a
+  373  touch {docs,src,misc,toold}/ .gitignore
+  374  touch {docs,src,misc,tools}/ .gitignore
+  375  tree -a
+  376  ls -a
+  377  rm .file1.swp
+  378  tree -a
+  379  rm .gitignore
+  380  tree -a
+  381  touch /docs .gitignore
+  382  touch docs/ .gitignore
+  383  touch src/ .gitignore
+  384  tree -a
+  385  tree
+  386  tree -a
+  387  ls -a /docs
+  388  tree -a
+  389  ls -a
+  390  cd docs
+  391  ls -a
+  392  touch .gitignore
+  393  cd ..
+  394  tree -a
+  395  cd src
+  396  touch .gitignore
+  397  cd ..
+  398  tree -a
+  399  jobs
+  400  echo '*.swp' >> .gitignore
+  401  cat .gitignore
+  402  git init
+  403  tree .git
+  404  git add --all
+  405  git status
+  406  vim .gitignore
+  407  git config --global user.email "davidjosuearayasanabria@gmail.com"
+  408  git commit -m
+  409  git commit -m "Inicializacion del repo de LInux"
+  410  cat .gitignore
+  411  tree -a
+  412  git log
+  413  ifconfig > misc/interfaces
+  414  dmesg > misc/kernel 
+  415  df -lh > docs/espacios
+  416  tree 
+  417  git status
+  418  git add misc/interfaces
+  419  git add docs/espacios
+  420  git status
+  421  git commit -m .gitignore
+  422  git status
+  423  git commint -m "Agrefo archivos de espacios e interfaces"
+  424  git commit -m "Agrefo archivos de espacios e interfaces"
+  425  git log
+  426  cp /etc/apt/sources.list misc/
+  427  git status
+  428  tree
+  429  vim docs/espacios 
+  430  git status
+  431  git diff docs/espacios
+  432  git status
+  433  git add docs/espacios
+  434  git add misc/kernel
+  435  git status
+  436  git add .gitignore
+  437  git status
+  438  git commit -m "Modificacion del header de espacios y agrego archivo de kernel"
+  439  git status
+  440  git log
+  441  git remote add origin https://github.com/DavidArayaSanabria/LXS1_David.Araya.git
+  442  git remote -v
+  443  git push -u origin master
+  444  git add misc/sources.list
+  445  vim misc/sources.list 
+  446  git status
+  447  git commit -m "agrego mis"
+  448  git push https://github.com/DavidArayaSanabria/LXS1_David.Araya.git
+  449  git pull origin master
+  450  tree
+  451  test
+  452  cd misc
+  453  cd /misc
+  454  ls
+  455  cd test
+  456  ls
+  457  misc
+  458  cd misc
+  459  history > history-clase2.txt
+  460  git status
+  461  git add misc/history_clase2.txt
+  462  git status
+  463  cd ..
+  464  git status
+  465  git add misc/history_clase2.txt
+  466  cd /tmp
+  467  ls
+  468  git clone https://github.com/DavidArayaSanabria/LXS1_David.Araya.git
+  469  ls
+  470  tree
+  471  sudo shutdown
+  472  su - academia
+  473  ps - a
+  474  ps -u estudiantes
+  475  kill 6538
+  476  jobs
+  477  gree 'root' /etc/passwd
+  478  greep 'root' /etc/passwd
+  479  grep 'root' /etc/passwd
+  480  grep '^root' /etc/passwd
+  481  grep 'nologin$' /etc/passwd
+  482  grep [root] /etc/passwd
+  483  grep '[root]' /etc/passwd
+  484  grep '[rot]' /etc/passwd
+  485  grep '[^root]' /etc/passwd
+  486  grep '[rs]t' /etc/passwd
+  487  grep '[a-cN-Q]' /etc/passwd
+  488  grep 'r..t' /etc/passwd
+  489  grep 'ro*t' /etc/passwd
+  490  touch test/{toy,ret,reet,root}
+  491  ls test | grep 'r[oe]*t'
+  492  touch test/{rot,ret,reet,root}
+  493  ls test | grep 'r[oe]*t'
+  494  grep 'r[1-7]*t' /etc/passwd
+  495  grep 'r[a-b]*t' /etc/passwd
+  496  grep 'r[o]*t' /etc/passwd
+  497  ls
+  498  rm test
+  499  rm -r test
+  500  y
+  501  ls
+  502  cd /tmp/
+  503  touch test/{rot,ret,reet,root}
+  504  mkdir test; touch test/{rot,ret,reet,root}
+  505  ls test | grep 'r[oe]*t'
+  506  cd
+  507  grep -E 'roo?t' /etc/passwd
+  508  grep -E 'rs[1-7]*tmp|root'
+  509  grep -E 'rs[1-7]*tmp|root' /etc/passwd
+  510  ls
+  511  ls /bin
+  512  date
+  513  cd /test/
+  514  ls
+  515  /test
+  516  cd test/
+  517  ls
+  518  cd
+  519  date
+  520  head passwd
+  521  head /etc/passwd
+  522  head /etc/passwd | grep -E '(a-z/)+'
+  523  head /etc/passwd | grep -E '/(a-z/)+'
+  524  grep -E '/(a-z/)+' /etc/passwd
+  525  grep -E '/([a-z]/)+' /etc/passwd
+  526  grep -E '/([a-z/])+' /etc/passwd
+  527  head grep -E '/([a-z/])+' /etc/passwd
+  528  head /etc/passwd | grep -E '/([a-z/])+' 
+  529  head /etc/passwd | grep -E '([a-z/]+)$' 
+  530  head /etc/passwd | grep -E '([a-z/]+)' 
+  531  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'| grep 's/([a-z/]+)'
+  532  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'
+  533  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/' | grep 's/([a-z/]+)'
+  534  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'; grep 's/([a-z/]+)'
+  535  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'; grep 's/([a-z/]+)' /etc/passwd
+  536  grep -E '/([a-z/])+' /etc/passwd
+  537  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'; grep -E '/([a-z/]+)' /etc/passwd
+  538  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'; head grep -E '/([a-z/]+)' /etc/passwd
+  539  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'; grep -E '/([a-z/]+)' /etc/passwd
+  540  grep -E '/([a-z/]+)' /etc/passwdhead /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'
+  541  grep -E '/([a-z/]+)' /etc/passwd; head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'
+  542  grep -E '/([a-z/]+)' /etc/passwd head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'
+  543  grep -E '/([a-z/]+)' /etc/passwd; head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'
+  544  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/'; grep -E '/([a-z/]+)' /etc/passwd
+  545  head /etc/passwd | sed -r 's/([a-z/]+):([a-z]+)$/\2:\1/' | grep -E '/([a-z/]+)' 
+  546  history
+  547  ls /
+  548  ls /junk
+  549  echo $?
+  550  date
+  551  vim algo
+  552  ls
+  553  ls -l
+  554  date | tee timer.txt
+  555  date | sleep 5
+  556  date | tee timer.txt; sleep 5
+  557  date | tee -a timer.txt
+  558  cat timer.txt 
+  559  date | tee timer.txt; sleep 5 | tee -a timer.txt 
+  560  cat timer.txt 
+  561  date | tee timer.txt; sleep 5 | tee -a timer.txt 
+  562  date | tee timer.txt; sleep 5; date | tee -a timer.txt 
+  563  vim tmp/algo
+  564  cat lista-archivos.txt | xargs touch
+  565  ls
+  566  cat timer.txt 
+  567  cat timer.txt | xargs touch
+  568  ls
+  569  cat timer.txt | xargs rm
+  570  cat timer.txt | xargs rm -r
+  571  ls
+  572  cat timer.txt 
+  573  /tmp
+  574  tmp/
+  575  cd tmp/
+  576  cd /tmp/
+  577  ls
+  578  ls / | grep -E -v '*\.*'
+  579  ls / | grep -v -E '*\.*'
+  580  ls | grep -v -E '*\.*'
+  581  ls / 
+  582  ls | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|[a-zA-z\]*\+[a-zA-Z]'
+  583  ls | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|[a-zA-z\]*\+[a-zA-Z]*'
+  584  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|[a-zA-z\]*\+[a-zA-Z]*'
+  585  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|[a-zA-Z\]*\+[a-zA-Z]*'
+  586  ls / 
+  587  ls / | grep -v 
+  588  ls / | grep -v -E '[a-zA-Z]'
+  589  ls / | grep -v -E '[a-zA-Z]*\.'
+  590  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|'
+  591  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*'
+  592  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]'
+  593  ls / | grep -v -E '[a-zA-Z]*\.'
+  594  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*'
+  595  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|'
+  596  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-z]*|*'
+  597  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-Z]*|'
+  598  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-Z]'
+  599  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]'
+  600  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*\+'
+  601  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*'
+  602  ls / | grep -v -E '[a-zA-Z]*\.[a-zA-Z]*|[a-zA-Z]*\+[a-zA-Z]*' > /tmp/folder.txt
+  603  ls
+  604  cat folder.txt 
+  605  cd test
+  606  cat ../folder.txt | xargs mkdir
+  607  rm -r
+  608  rm -r *
+  609  cat ../folder.txt | xargs mkdir
+  610  ls
+  611  ls / | grep -v -E '*\.|*\+'
+  612  echo File1>> liste-de-archivos.txt; echo File1>> liste-de-archivos.txt; 
+  613  echo File1>> liste-de-archivos.txt; 
+  614  echo File1>> liste-de-archivos.txt; echo File2>> liste-de-archivos.txt; echo File3 >> lista-de-archivos.txt 
+  615  cat lista-de-archivos.txt 
+  616  rm -r lista-de-archivos.txt 
+  617  echo File1 >> liste-de-archivos.txt; echo File2 >> liste-de-archivos.txt; echo File3 >> lista-de-archivos.txt 
+  618  cat lista-de-archivos.txt 
+  619  rm -r lista-de-archivos.txt 
+  620  rm -r liste-de-archivos.txt 
+  621  echo File1 >> lista-de-archivos.txt; echo File2 >> lista-de-archivos.txt; echo File3 >> lista-de-archivos.txt 
+  622  cat lista-de-archivos.txt 
+  623  ls
+  624  printf 'FIEL1 \nFIEL2\n' >files.txt
+  625  cat files.txt 
+  626  date
+  627  vim algo
+  628  yes hola
+  629  jobs
+  630  yes hola
+  631  jobs
+  632  ping localhost
+  633  jobs
+  634  vim /tmp/algo.txt
+  635  jobs
+  636  bg 1
+  637  jobs
+  638  yes hola mundo > /dev/null
+  639  jobs
+  640  bg 4
+  641  jobs
+  642  ps
+  643  ps -x
+  644  ps aux
+  645  ps aux | head
+  646  ps aux | less
+  647  jobs
+  648  kill %2
+  649  jobs
+  650  ping localhost /dev/null
+  651  jobs
+  652  ping localhosts /dev/null
+  653  ping localhosts > /dev/null
+  654  ping localhost > /dev/null
+  655  jobs
+  656  kill -l
+  657  jobs
+  658  ps
+  659  kill -9 6619
+  660  jobs
+  661  ps
+  662  jobs
+  663  kill %5; kill %3
+  664  jobs
+  665  kill %3
+  666  jobs
+  667  ps
+  668  kill 6555
+  669  jobs
+  670  kill %3 -15 
+  671  kill -15 6555
+  672  jobs
+  673  vim /tmp/algo.txt > /dev/null 
+  674  jobs
+  675  kill %~
+  676  kill %
+  677  kill %4
+  678  ps -u estudiantes
+  679  kill 6860
+  680  kill 6555
+  681  jobs
+  682  kill -
+  683  kill %-
+  684  kill %+
+  685  jobs
+  686  ls
+  687  cd
+  688  cd ./
+  689  .
+  690  cd ..
+  691  cd
+  692  /tmp
+  693  cd /tmp/
+  694  ls
+  695  jobs
+  696  kill %3
+  697  jobs
+  698  /tes
+  699  cd /test
+  700  ls
+  701  }cd test
+  702  }cd test/
+  703  cd test/
+  704  ls
+  705  ls -a
+  706  ls -l
+  707  jobs
+  708  ps
+  709  vim /tmp/algo.txt
+  710  job
+  711  jobs
+  712  kill %3
+  713  jobs
+  714  kill 3%
+  715  kill man
+  716  man kill
+  717  kill -9 -1
+  718  jobs
+  719  top
+  720  htop
+  721  sudo apt-get install htop
+  722  su -c academia
+  723  su - academia
+  724  ls
+  725  cd documentos
+  726  cd documentos/
+  727  cd /documentos/
+  728  cd /documentos
+  729  cd documentos/
+  730  ls
+  731  cd Documentos/
+  732  git clone https://github.com/vim-scripts/Xdebug.git
+  733  ls
+  734  git clone https://github.com/vim-scripts/Xdebug.git
+  735  ls
+  736  cd Documentos/
+  737  git clone https://github.com/vim-scripts/Xdebug.git
+  738  jobs
+  739  ps
+  740  ls
+  741  killall
+  742  git clone https://github.com/vim-scripts/Xdebug.git
+  743  git clone https://github.com/EnocBM/LXS1_enoc.barrantes.git
+  744  ls
+  745  cd LXS1_enoc.barrantes/
+  746  cd misc/
+  747  history > history_clase3.txt 
